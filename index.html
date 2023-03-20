@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Classification</title>
+</head>
+<body>
+    <h1>Classification Text or by Url</h1>
+    <form id="text-classification-form">
+        <label for="inputKey">ApiKey:</label>
+        <br>
+        <input type="text" id="inputKey" name="inputKey" value="AIzaSyAOLeH1WtoAqIoz7lTCvdrBt8vZO4by8rs" style="width: 100%" required>
+        <br>
+        <label for="inputText">Text or URL:</label>
+        <br>
+        <textarea type="text" id="inputText" name="inputText" cols="50" rows="10" required></textarea>
+        <button type="submit">Classify</button>
+    </form>
+    <h2>Result:</h2>
+    <pre id="result"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
